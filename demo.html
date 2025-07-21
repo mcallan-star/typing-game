@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Droid+Sans+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Droid Sans Mono', monospace;
+      background: #f5f5f5;
+      padding: 2rem;
+    }
+    .line {
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .word {
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+    .token_unit {
+      display: inline-block;
+      padding: 2px;
+      min-width: 1ch;
+      text-align: center;
+    }
+    .typed {
+      color: #aaa;
+    }
+    .highlight {
+      border-bottom: 2px solid blue;
+    }
+    .wrong-first-pass {
+      background-color: #ffcccc;
+    }
+    .corrected {
+      background-color: #fff6cc;
+    }
+    .enter-symbol {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background: url('enter2.png') no-repeat center;
+      background-size: contain;
+      vertical-align: middle;
+      margin-left: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="typing-area">
+    <!-- Example line -->
+    <span class="line">
+      <span class="word">
+        <span class="token_unit">H</span>
+        <span class="token_unit">e</span>
+        <span class="token_unit">l</span>
+        <span class="token_unit">l</span>
+        <span class="token_unit">o</span>
+      </span>
+      <span class="word">
+        <span class="token_unit">W</span>
+        <span class="token_unit">o</span>
+        <span class="token_unit">r</span>
+        <span class="token_unit">l</span>
+        <span class="token_unit">d</span>
+      </span>
+      <span class="enter-symbol"></span>
+    </span>
+  </div>
+
+  <script>
+    // Placeholder JS for tracking input, highlighting, etc.
+    // We’ll add real logic interactively with you.
+  </script>
+
+</body>
+</html>

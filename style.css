@@ -1,0 +1,49 @@
+/* style.css */
+body {
+  font-family: 'Droid Sans Mono', monospace;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.line {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.word {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.token_unit {
+  display: inline-block;
+  min-width: 1ch;
+  padding: 2px;
+  text-align: center;
+}
+
+.typed {
+  color: #aaa;
+}
+
+.highlight {
+  border-bottom: 2px solid blue;
+}
+
+.wrong-first-pass {
+  background-color: #ffcccc;
+}
+
+.corrected {
+  background-color: #fff6cc;
+}
+
+.enter-symbol {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('enter2.png') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
